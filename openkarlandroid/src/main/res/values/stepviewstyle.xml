@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--步骤控件自定义属性-->
+    <declare-styleable name="StepView">
+        <attr name="text_content" format="string"></attr>
+        <attr name="text_content_size" format="dimension"></attr>
+        <!--三种状态：没做,做了没完成，做了完成了-->
+        <attr name="state" format="enum">
+            <enum name="undo" value="0"></enum>
+            <enum name="notok" value="1"></enum>
+            <enum name="ok" value="2"></enum>
+        </attr>
+        <!--未做填充颜色，默认灰色-->
+        <attr name="undo_color" format="color"></attr>
+        <!--做了没完成填充颜色，默认红色-->
+        <attr name="notok_color" format="color"></attr>
+        <!--做了完成了，默认绿色-->
+        <attr name="ok_color" format="color"></attr>
+        <!--线条颜色 默认黑色-->
+        <attr name="line_color" format="color"></attr>
+        <!--此节点的节点类型-->
+        <attr name="node_type" format="enum">
+            <!--第一个节点-->
+            <enum name="first_node" value="0"></enum>
+            <!--第二个节点-->
+            <enum name="middle_node" value="1"></enum>
+            <!--第三个节点-->
+            <enum name="last_node" value="2"></enum>
+        </attr>
+        <!--线的宽度 默认5dp-->
+        <attr name="line_width" format="dimension"></attr>
+        <!--圆的半径 默认20dp-->
+        <attr name="circle_radius" format="dimension"></attr>
+        <!--显示文字-->
+        <attr name="text" format="string"></attr>
+        <!--文字大小-->
+        <attr name="text_size" format="dimension"></attr>
+
+        <attr name="line_gravity" format="enum">
+            <enum name="left" value="0"></enum>
+            <enum name="center" value="1"></enum>
+            <enum name="right" value="2"></enum>
+        </attr>
+
+        <!--圆距离上面的边距-->
+        <attr name="circle_margin_top" format="dimension"></attr>
+    </declare-styleable>
+</resources>
