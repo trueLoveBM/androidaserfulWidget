@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SimpleStepViewActivity"></activity>
+        <activity android:name=".CommonMineActivity"></activity>
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".PickerViewActivity" />
+        <activity android:name=".CustomDatePickerDemoActivity" />
+        <activity android:name=".SwipeItemDemoActivity" />
+        <activity android:name=".WaveViewActivity" />
+        <activity android:name=".SimpleStepViewActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

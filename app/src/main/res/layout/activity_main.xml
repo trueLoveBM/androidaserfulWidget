@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -14,4 +15,56 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content" />
 
+
+   <Button
+       android:id="@+id/btnWaveView"
+       android:text="波浪控件演示"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+
+   <Button
+       android:id="@+id/btnSwipeItem"
+       android:text="RecycleView侧滑菜单演示"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+
+   <Button
+       android:id="@+id/btnCustomDatePicker"
+       android:text="时间选择器演示"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+   <Button
+       android:id="@+id/btnPicker"
+       android:text="选择器演示"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+
+   <Button
+       android:id="@+id/btnCheckBox"
+       android:text="checkBox"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+
+   <Button
+       android:id="@+id/btnCommonMine"
+       android:text="MyLineOne实现我的界面"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
 </LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.karl.openandroid.widget.SwipeItemLayout
+    android:id="@+id/SwipeItemLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="100dp">
+
+
+    <!--条目主内容  app:layout_itemType="main"-->
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_itemType="main">
+
+
+        <!--图片-->
+        <ImageView
+            android:id="@+id/iv_interface"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@drawable/ic_launcher_background" />
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="4">
+
+            <TextView
+                android:id="@+id/tv_display_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="2dp"
+                android:textStyle="bold"
+                android:text="标题"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/tv_regulation_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:textSize="14sp"
+                android:text="2012年-12月-12日" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <!--侧滑菜单 app:layout_itemType="menu"-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <!--标记-->
+        <TextView
+            android:id="@+id/tv_flag"
+            style="@style/SlideRecycleViewItemMenu"
+            android:layout_marginRight="2dp"
+            android:text="标记"
+            android:background="#00ff00"
+            android:gravity="center"
+            app:layout_itemType="menu" />
+
+        <!--详情-->
+        <TextView
+            android:id="@+id/tv_details"
+            style="@style/SlideRecycleViewItemMenu"
+            android:layout_marginRight="2dp"
+            android:background="#ff0000"
+            android:text="详情"
+            android:gravity="center"
+            app:layout_itemType="menu" />
+
+    </LinearLayout>
+
+</com.karl.openandroid.widget.SwipeItemLayout>
