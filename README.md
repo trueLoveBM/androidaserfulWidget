@@ -2,7 +2,20 @@
 安卓好用的控件封装
 请在你的项目的build.grade文件中添加如下语句，添加依赖
 
- implementation 'com.github.trueLoveBM:androidusefulWidget:Tag'
+使用方式
+1.在你的project的build.gradle中添加如下语句
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://www.jitpack.io' }
+		}
+	}
+ 2.在你项目的build.gradle文件内添加依赖
+ 
+	dependencies {
+	        implementation 'com.github.trueLoveBM:androidusefulWidget:V1.10'
+	}
 
 封装的控件包括
 
