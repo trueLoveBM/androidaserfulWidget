@@ -2,7 +2,7 @@
 安卓好用的控件封装
 请在你的项目的build.grade文件中添加如下语句，添加依赖
 
-implementation 'com.github.trueLoveBM:androidusefulWidget:Tag'
+ implementation 'com.github.trueLoveBM:androidusefulWidget:Tag'
 
 封装的控件包括
 
