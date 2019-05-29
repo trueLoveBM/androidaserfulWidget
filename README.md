@@ -53,5 +53,8 @@
 
 ![image](https://github.com/trueLoveBM/androidusefulWidget/blob/master/image/mineLineOneView.gif)
 
+10.和百度UEditor一样的html富文本编辑器
+![image](https://github.com/trueLoveBM/androidusefulWidget/blob/master/image/summernote.gif)
+
 
   
