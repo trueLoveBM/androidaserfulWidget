@@ -14,7 +14,7 @@
  2.在你项目的build.gradle文件内添加依赖
  
 	dependencies {
-	        implementation 'com.github.trueLoveBM:androidusefulWidget:V1.10'
+	        implementation 'com.github.trueLoveBM:androidusefulWidget:V1.11'
 	}
 
 封装的控件包括
