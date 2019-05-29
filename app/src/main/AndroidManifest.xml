@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xinxiang.openkarlandroid">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CommonMineActivity"></activity>
+        <activity android:name=".SummerNoteDemoActivity"></activity>
+        <activity android:name=".CommonMineActivity" />
         <activity android:name=".CheckBoxActivity" />
         <activity android:name=".PickerViewActivity" />
         <activity android:name=".CustomDatePickerDemoActivity" />

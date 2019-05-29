@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btnPicker;
     Button btnCheckBox;
     Button btnCommonMine;
-
+    Button btnSummerNote;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnCheckBox=findViewById(R.id.btnCheckBox);
         btnPicker= findViewById(R.id.btnPicker);
         btnCommonMine= findViewById(R.id.btnCommonMine);
+        btnSummerNote= findViewById(R.id.btnSummerNote);
         btnStepTest.setOnClickListener(this);
         btnWaveView.setOnClickListener(this);
         btnSwipeItem.setOnClickListener(this);
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnPicker.setOnClickListener(this);
         btnCheckBox.setOnClickListener(this);
         btnCommonMine.setOnClickListener(this);
+        btnSummerNote.setOnClickListener(this);
     }
 
     @Override
@@ -58,6 +60,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnCommonMine:
                 CommonMineActivity.showActivity(this);
+                break;
+            case R.id.btnSummerNote://富文本编辑器
+                SummerNoteDemoActivity.showActivity(this);
                 break;
         }
 
