@@ -14,7 +14,7 @@
  2.在你项目的build.gradle文件内添加依赖
  
 	dependencies {
-	        implementation 'com.github.trueLoveBM:androidusefulWidget:V1.10'
+	        implementation 'com.github.trueLoveBM:androidusefulWidget:V1.11'
 	}
 
 封装的控件包括
@@ -52,6 +52,10 @@
 9.MyOneLineView 用于实现通用的我的界面效果
 
 ![image](https://github.com/trueLoveBM/androidusefulWidget/blob/master/image/mineLineOneView.gif)
+
+10.和百度UEditor一样的html富文本编辑器
+
+![image](https://github.com/trueLoveBM/androidusefulWidget/blob/master/image/summernote.gif)
 
 
   
