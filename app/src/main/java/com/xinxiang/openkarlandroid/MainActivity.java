@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.karl.openandroid.widget.SignaturePadView;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button btnStepTest;
@@ -15,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btnCheckBox;
     Button btnCommonMine;
     Button btnSummerNote;
+    Button btnSignaturePad;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnPicker= findViewById(R.id.btnPicker);
         btnCommonMine= findViewById(R.id.btnCommonMine);
         btnSummerNote= findViewById(R.id.btnSummerNote);
+        btnSignaturePad= findViewById(R.id.btnSignaturePad);
         btnStepTest.setOnClickListener(this);
         btnWaveView.setOnClickListener(this);
         btnSwipeItem.setOnClickListener(this);
@@ -35,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnCheckBox.setOnClickListener(this);
         btnCommonMine.setOnClickListener(this);
         btnSummerNote.setOnClickListener(this);
+        btnSignaturePad.setOnClickListener(this);
     }
 
     @Override
@@ -63,6 +68,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnSummerNote://富文本编辑器
                 SummerNoteDemoActivity.showActivity(this);
+                break;
+            case R.id.btnSignaturePad:
+                SignaturePadActivity.showActivity(this);
                 break;
         }
 

@@ -75,4 +75,12 @@
        android:layout_marginRight="10dp"
        android:layout_width="match_parent"
        android:layout_height="wrap_content" />
+
+   <Button
+       android:id="@+id/btnSignaturePad"
+       android:text="签名板"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
 </LinearLayout>
